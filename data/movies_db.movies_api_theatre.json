@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "65d8ffb6dc9d62ab6aa3d526"
+  },
+  "id": 1,
+  "name": "PVR Cinemas",
+  "address": "Connaught Place",
+  "city": "Delhi",
+  "pincode": 110022,
+  "movie_id": 4,
+  "date": {
+    "$date": "2024-02-28T14:14:33.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d90214dc9d62ab6aa3d529"
+  },
+  "id": 2,
+  "name": "Cinepolis",
+  "address": "Janakpuri",
+  "city": "Delhi",
+  "pincode": 110016,
+  "movie_id": 3,
+  "date": {
+    "$date": "2024-02-28T14:14:23.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d90277dc9d62ab6aa3d52b"
+  },
+  "id": 3,
+  "name": "Cinemark",
+  "address": "MG Road",
+  "city": "Gurgaon",
+  "pincode": 123057,
+  "movie_id": 2,
+  "date": {
+    "$date": "2024-02-28T14:14:15.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d902b9dc9d62ab6aa3d52d"
+  },
+  "id": 4,
+  "name": "Regal Cinemas",
+  "address": "Tribune Chowk",
+  "city": "Chandigrah",
+  "pincode": 163002,
+  "movie_id": 1,
+  "date": {
+    "$date": "2024-02-28T14:13:59.000Z"
+  }
+}]

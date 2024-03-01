@@ -1,0 +1,38 @@
+.navbarMainBody {
+    padding: 0;
+}
+
+.navbarDesign {
+    background-color: #030360;
+    padding: 0.5em 0.5em;
+
+}
+
+.title,
+.home-text {
+    color: white;
+}
+
+.title:hover {
+    color: white;
+}
+
+.homeText {
+    color: white;
+}
+
+.titleColoredText {
+    color: red;
+}
+
+.image {
+    background-color: aqua;
+}
+
+.joinBtn {
+    padding: 0.5em 2em;
+    border: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(236, 85, 85, 1) 0%, rgba(72, 88, 205, 1) 80%);
+    border-radius: 14px;
+}

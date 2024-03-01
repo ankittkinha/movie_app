@@ -1,0 +1,116 @@
+/* 
+
+.main{
+    height: 90vh;
+    width: 100vw;
+}
+
+.screen{
+    width: 200px;
+    height: 2em;
+    background-color: aqua;
+}
+
+.cinema{
+    width: 90%;
+    height: 90%;
+    background-color: yellow;
+    margin-top: 2em;
+}
+
+.dateDiv{
+    background-color: aqua;
+    padding: 0.8em;
+}
+
+.screenTxtDiv{
+    background-color: aquamarine;
+    padding: 0.5em;
+}
+
+.screenTxt{
+    border: 1px solid black;
+}
+.screenDiv{
+    background-color: brown;
+    height: 1em;
+    width: 40%;
+    margin: 1em auto;
+}
+
+.seats{
+    margin: 1em auto;
+    background-color: beige;
+    padding: 2em;
+    height: 15em;
+    width: 60%;
+}
+
+.bookingDetails{
+    margin: 1em auto;
+    height: 7em;
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookBtn{
+    margin: auto;
+} */
+
+.screen{
+    width: 85%;
+    border-top: 3px solid rgb(224, 168, 63);
+    border-radius: 20%;
+    box-shadow: inset 0px 10px 20px rgb(72, 2, 2);
+    background-color: aliceblue;
+    margin: 1.5em auto;
+}
+.whiteText{
+    color: white;
+}
+
+/* .seatsPart{
+    
+} */
+
+.seatsPart{
+    margin: 1em auto;
+    padding: 2em 10em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Creates 8 columns with equal width */
+    gap: 10px; /* Adjusts the gap between grid items */
+    margin-left: 3em;
+}
+
+.seatsPart :nth-child(2){
+    margin-right: 6em;
+}
+
+.seatsPart :nth-last-child(3){
+    margin-right: 6em;
+}
+
+.lastDiv{
+    background-color: rgb(5, 46, 83);
+    padding: 1em;
+    height: 12em;
+}
+
+.bookBtn{
+    width: 10em;
+    margin: auto 0.2em;
+    background: linear-gradient(90deg, rgba(236,85,85,1) 0%, rgba(72,88,205,1) 80%);
+    border: none;
+}
+
+.seats{
+    max-width: 33%;
+
+}
+
+.seatsDiv, .costDiv, .btnDiv{
+    width: 33.33%;
+    padding: 0.5em;
+}

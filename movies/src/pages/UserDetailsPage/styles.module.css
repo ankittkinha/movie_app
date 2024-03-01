@@ -1,0 +1,35 @@
+.panelContainer{
+    margin: 3em 5em;
+    background: linear-gradient(90deg, rgba(236,85,85,1) 0%, rgba(72,88,205,1) 80%);
+
+}
+
+.accountBtn{
+    width: 15em;
+    background: linear-gradient(90deg, rgba(236,85,85,1) 0%, rgba(72,88,205,1) 80%);
+}
+
+.colorWhite{
+    color: white;
+}
+
+.colorGrey{
+    color: rgb(198, 202, 202);
+}
+
+.logoutBtn{
+    width: 15em;
+    margin-left: 1em;
+    border: none;
+    background: linear-gradient(90deg, rgba(236,85,85,1) 0%, rgba(72,88,205,1) 80%);
+}
+
+.bookingsBtn{
+    width: 15em;
+    border: none;
+    background: linear-gradient(90deg, rgba(236,85,85,1) 0%, rgba(72,88,205,1) 80%);
+}
+
+.header, .footer{
+    background-color: #030360;
+}

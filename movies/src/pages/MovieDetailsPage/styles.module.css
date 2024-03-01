@@ -1,0 +1,54 @@
+body {
+    background-image: url("../../images/HomeBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mainContainer {
+    margin-top: 10.5em;
+    background-color: rgb(12, 1, 60);
+}
+
+.whiteText {
+    color: white;
+}
+
+.greyText {
+    color: rgb(221, 218, 218);
+}
+
+.year {
+    padding-left: 0.3em;
+    padding-right: 0.8em;
+}
+
+.runtime {
+    padding-left: 0.3em;
+    padding-right: 0.3em
+}
+
+.text {
+    margin: 0;
+}
+
+.desc {
+    max-width: 600px;
+    word-wrap: break-word;
+    margin-left: 1em;
+}
+
+.bookBtn {
+    width: 10em;
+    background: linear-gradient(90deg, rgba(236, 85, 85, 1) 0%, rgba(72, 88, 205, 1) 80%);
+    border: none;
+    border-radius: 3em;
+    height: 2.6em;
+    margin-right: 1em;
+}
+
+.bottomDiv {
+    background-color: #030360;
+    padding: 3em 0;
+    margin-top: 1em;
+}
